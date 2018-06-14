@@ -17,6 +17,8 @@ public class UserDto {
     
     private List<GroupDto> groups;
     
+    public UserDto() {}
+    
     public UserDto(Long id, String name, String email) {
     	this.id = id;
     	this.name = name;

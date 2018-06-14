@@ -10,6 +10,8 @@ public class GroupDto {
     
     private List<UserDto> users;
     
+    public GroupDto() {}
+    
     public GroupDto(Long id, String name) {
     	this.id = id;
     	this.name = name;
