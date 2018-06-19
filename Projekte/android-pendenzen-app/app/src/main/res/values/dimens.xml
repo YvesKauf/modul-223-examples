@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- 'sloggedin' -> stay logged in -->
+   <!-- for Login -->
+   <dimen name="margin_small">30dp</dimen>
+   <dimen name="email_width">70dp</dimen>
+   <dimen name="email_height">25dp</dimen>
+   <dimen name="margin_email">40dp</dimen>
+   <dimen name="margin_top_s_logged_in">32dp</dimen>
+   <dimen name="margin_top_email">68dp</dimen>
+   <dimen name="s_logged_in_width">178dp</dimen>
+   <dimen name="s_logged_in_height">48dp</dimen>
+   <dimen name="pw_width">74dp</dimen>
+   <dimen name="margin_top_pw">28dp</dimen>
+   <dimen name="pw_height">26dp</dimen>
+   <dimen name="margin_top_register">24dp</dimen>
+   <dimen name="margin_end_start">8dp</dimen>
+   <dimen name="margin_top_login">16dp</dimen>
+   <dimen name="login_height">57dp</dimen>
+   <dimen name="login_width">171dp</dimen>
+   <dimen name="pw_e_width">301dp</dimen>
+   <dimen name="welcome_height">64dp</dimen>
+   <dimen name="margin_top_welcome">44dp</dimen>
+   <dimen name="margin_top_name">20dp</dimen>
+   <dimen name="font_welcome">35sp</dimen>
+
+    <!-- for Register -->
+   <dimen name="imageview_width_pb">39dp</dimen>
+   <dimen name="imageview_height_pb">35dp</dimen>
+   <dimen name="margin_top">12dp</dimen>
+   <dimen name="layout_height_email">18dp</dimen>
+   <dimen name="height_confirmpassword">22dp</dimen>
+   <dimen name="margin_top_firstname">10dp</dimen>
+
+   <!-- Timo, Nadine, Steven -->
+   <dimen name="card_apprentice_max_height">230dp</dimen>
+   <dimen name="card_apprentice_min_height">230dp</dimen>
+   <dimen name="card_apprentice_margin_around">5dp</dimen>
+
+
+   <dimen name="textview_apprentice_name_margin_start">8dp</dimen>
+   <dimen name="textview_apprentice_firstname_margin_top">4dp</dimen>
+   <dimen name="textview_apprentice_fontsize">18sp</dimen>
+
+   <dimen name="textview_addapprentice_names_margin_start">24dp</dimen>
+   <dimen name="textview_addapprentice_firstname_margin_top">76dp</dimen>
+   <dimen name="textview_addapprentice_lastname_margin_top">48dp</dimen>
+
+   <dimen name="edittext_addapprentice_names_margin_top">8dp</dimen>
+   <dimen name="edittext_addapprentice_names_margin_end">48dp</dimen>
+
+
+   <dimen name="imageview_general_square">170dp</dimen>
+   <dimen name="imageview_apprentice_marginbottom">68dp</dimen>
+   <dimen name="imageview_apprentice_marginend">8dp</dimen>
+   <dimen name="imageview_apprentice_marginstart">8dp</dimen>
+
+   <dimen name="imageview_addapprentice_margin_start">8dp</dimen>
+   <dimen name="imageview_addapprentice_margin_top">40dp</dimen>
+   <dimen name="imageview_addapprentice_margin_end">8dp</dimen>
+   <dimen name="imageview_addapprentice_margin_bottom">8dp</dimen>
+
+
+   <dimen name="flaotactionbutton_general_width">60dp</dimen>
+   <dimen name="flaotactionbutton_general_height">60dp</dimen>
+
+   <dimen name="floatactionbutton_addapprentice_caputre_margin_start">8dp</dimen>
+   <dimen name="floatactionbutton_addapprentice_caputre_margin_top">8dp</dimen>
+   <dimen name="floatactionbutton_addapprentice_caputre_margin_end">8dp</dimen>
+   <dimen name="floatactionbutton_addapprentice_caputre_margin_bottom">8dp</dimen>
+
+   <dimen name="floatactionbutton_main_add_margin_bottom">16dp</dimen>
+   <dimen name="floatactionbutton_main_add_margin_right">16dp</dimen>
+   <dimen name="floatactionbutton_main_add_margin_end">16dp</dimen>
+
+
+   <dimen name="button_addapprentice_save_width">124dp</dimen>
+   <dimen name="button_addapprentice_save_height">47dp</dimen>
+   <dimen name="button_addapprentice_save_start">8dp</dimen>
+   <dimen name="button_addapprentice_save_margin_top">36dp</dimen>
+   <dimen name="button_addapprentice_save_margin_end">8dp</dimen>
+
+   <!-- Jens, Claudia -->
+   <dimen name="layout_margin">10dp</dimen>
+   <dimen name="button_length">110dp</dimen>
+   <dimen name="button_height">45dp</dimen>
+   <dimen name="margin_right_border">16dp</dimen>
+   <dimen name="margin_left_border">16dp</dimen>
+   <dimen name="margin_bottom_border">16dp</dimen>
+   <dimen name="margin_top_border">16dp</dimen>
+   <dimen name="margin_to_object">8dp</dimen>
+   <dimen name="margin_to_object_above_large">15dp</dimen>
+   <dimen name="textSize_content">20sp</dimen>
+   <dimen name="add_button_margin">20dp</dimen>
+
+
+</resources>

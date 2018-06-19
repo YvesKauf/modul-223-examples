@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_main_apprentices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatactionbutton_main_add"
+        android:layout_width="@dimen/flaotactionbutton_general_width"
+        android:layout_height="@dimen/flaotactionbutton_general_height"
+        android:layout_marginBottom="@dimen/floatactionbutton_main_add_margin_bottom"
+        android:layout_marginEnd="@dimen/floatactionbutton_main_add_margin_end"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@mipmap/ic_dialog_add"
+        app:backgroundTint="@color/floating_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@color/floating_button" />
+</android.support.constraint.ConstraintLayout>

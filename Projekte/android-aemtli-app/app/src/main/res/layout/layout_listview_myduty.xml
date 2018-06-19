@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+    <TextView
+        android:id="@+id/aemtchen_name"
+        android:layout_width="@dimen/marginextralarge"
+        android:layout_height="@dimen/aemtchenansichttitelheight"
+        android:layout_marginLeft="@dimen/marginsmall"
+        android:layout_marginStart="@dimen/marginsmall"
+        android:layout_marginTop="8dp"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/stellvertreter_bild"
+        android:layout_width="@dimen/imagesize"
+        android:layout_height="@dimen/imagesize"
+        android:layout_marginBottom="@dimen/marginsmall"
+        android:layout_marginEnd="@dimen/marginsmall"
+        android:layout_marginRight="@dimen/marginsmall"
+        android:layout_marginTop="@dimen/marginmedium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verantwortlicher_bild"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/verantwortlicher_bild"
+        app:layout_constraintTop_toBottomOf="@+id/verantwortlicher_bild"
+        app:layout_constraintVertical_bias="0.065"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/verantwortlicher_bild"
+        android:layout_width="@dimen/imagesize"
+        android:layout_height="@dimen/imagesize"
+        android:layout_marginLeft="@dimen/marginmedium"
+        android:layout_marginStart="@dimen/marginmedium"
+        android:layout_marginTop="@dimen/marginsmall"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aemtchen_name"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/stellvertreter_name"
+        android:layout_width="@dimen/marginzero"
+        android:layout_height="@dimen/marginmedium"
+        android:layout_marginTop="@dimen/aemtchenansichtmargin"
+        android:textSize="@dimen/nameSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/verantwortlicher_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/verantwortlicher_name"
+        app:layout_constraintTop_toBottomOf="@+id/verantwortlicher_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/verantwortlicher_name"
+        android:layout_width="@dimen/aemtchenansichttextboxsize"
+        android:layout_height="@dimen/marginmedium"
+        android:layout_marginLeft="@dimen/margindoublesmall"
+        android:layout_marginStart="@dimen/margindoublesmall"
+        android:layout_marginTop="@dimen/aemtchenansichtmargin"
+        android:textSize="@dimen/nameSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/verantwortlicher_bild"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+</android.support.constraint.ConstraintLayout>

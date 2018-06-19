@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Miriam -->
+    <dimen name="guikomponenten_margin">8dp</dimen>
+    <dimen name="layout_masse_match_constraint">0dp</dimen>
+    <dimen name="allelernendenactivity_name_text_groesse">18sp</dimen>
+    <dimen name="allelernendenactivity_bild_groesse">100dp</dimen>
+
+    <!-- Severin, Sven, Céline -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_none">0dp</dimen>
+    <dimen name="margin_sm">8dp</dimen>
+    <dimen name="margin_md">16dp</dimen>
+    <dimen name="margin_lg">32dp</dimen>
+    <dimen name="match_constraints">0dp</dimen>
+    <dimen name="profile_input">350dp</dimen>
+    <dimen name="large_button">230dp</dimen>
+    <dimen name="very_large_button">350dp</dimen>
+    <dimen name="picture">70dp</dimen>
+
+    <!-- Dave, Mathias -->
+    <dimen name="marginzero">0dp</dimen>
+    <dimen name="marginsmall">8dp</dimen>dimen>
+    <dimen name="margindoublesmall">16dp</dimen>
+    <dimen name="marginmedium">22dp</dimen>
+    <dimen name="margindoublemedium">52dp</dimen>
+    <dimen name="marginlarge">156dp</dimen>
+    <dimen name="marginextralarge">305dp</dimen>
+    <dimen name="tabheight">44dp</dimen>
+    <dimen name="aemtchenansichtmargin">75dp</dimen>
+    <dimen name="aemtchenansichttextboxsize">174dp</dimen>
+    <dimen name="aemtchenansichttitelheight">39dp</dimen>
+    <dimen name="imagesize">77dp</dimen>
+    <dimen name="titleSize">24sp</dimen>
+    <dimen name="nameSize">18sp</dimen>
+</resources>

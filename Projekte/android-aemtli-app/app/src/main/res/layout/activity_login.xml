@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/loginactivity_input_email"
+        android:layout_width="@dimen/layout_masse_match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/guikomponenten_margin"
+        android:layout_marginEnd="@dimen/guikomponenten_margin"
+        android:layout_marginLeft="@dimen/guikomponenten_margin"
+        android:layout_marginRight="@dimen/guikomponenten_margin"
+        android:layout_marginStart="@dimen/guikomponenten_margin"
+        android:layout_marginTop="@dimen/guikomponenten_margin"
+        android:ems="10"
+        android:hint="@string/loginactivity_label_emailadresse"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loginactivity_imageView_email"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <EditText
+        android:id="@+id/loginactivity_input_passwort"
+        android:layout_width="@dimen/layout_masse_match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/guikomponenten_margin"
+        android:layout_marginLeft="@dimen/guikomponenten_margin"
+        android:layout_marginRight="@dimen/guikomponenten_margin"
+        android:layout_marginStart="@dimen/guikomponenten_margin"
+        android:layout_marginTop="@dimen/guikomponenten_margin"
+        android:ems="10"
+        android:hint="@string/loginactivity_label_passwort"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loginactivity_imageView_passwort"
+        app:layout_constraintTop_toBottomOf="@+id/loginactivity_input_email" />
+
+    <Button
+        android:id="@+id/loginactivity_button_login"
+        android:layout_width="@dimen/layout_masse_match_constraint"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/guikomponenten_margin"
+        android:layout_marginLeft="@dimen/guikomponenten_margin"
+        android:layout_marginRight="@dimen/guikomponenten_margin"
+        android:layout_marginStart="@dimen/guikomponenten_margin"
+        android:layout_marginTop="@dimen/guikomponenten_margin"
+        android:background="@color/colorPrimary"
+        android:text="@string/loginactivity_label_login"
+        android:textColor="@color/colorTextPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginactivity_input_passwort" />
+
+    <ImageView
+        android:id="@+id/loginactivity_imageView_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/guikomponenten_margin"
+        android:layout_marginLeft="@dimen/guikomponenten_margin"
+        android:layout_marginStart="@dimen/guikomponenten_margin"
+        android:layout_marginTop="@dimen/guikomponenten_margin"
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="@+id/loginactivity_input_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginactivity_input_email" />
+
+    <ImageView
+        android:id="@+id/loginactivity_imageView_passwort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/guikomponenten_margin"
+        android:layout_marginLeft="@dimen/guikomponenten_margin"
+        android:layout_marginStart="@dimen/guikomponenten_margin"
+        android:layout_marginTop="@dimen/guikomponenten_margin"
+        android:src="@drawable/ic_passwort"
+        app:layout_constraintBottom_toBottomOf="@+id/loginactivity_input_passwort"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loginactivity_input_passwort" />
+
+</android.support.constraint.ConstraintLayout>

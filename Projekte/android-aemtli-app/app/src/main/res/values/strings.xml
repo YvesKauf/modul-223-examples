@@ -1,0 +1,74 @@
+<resources>
+	<!-- App Miriam -->
+	<string name="app_name">Aemtli-App</string>
+	<string name="loginactivity_label_emailadresse">E-Mail-Adresse</string>
+	<string name="loginactivity_label_passwort">Passwort</string>
+	<string name="loginactivity_label_login">Login</string>
+	<string name="loginactivity_falsche_logindaten_meldung">Die Logindaten sind nicht korrekt!</string>
+	<string name="allelernendenactivity_activityname">Meine Lernenden</string>
+	<string name="allelernendenactivity_ladefehler">Beim Laden der Lernenden ist ein Fehler aufgetreten!</string>
+	<string name="allelernendenactivity_keinelernende">Sie haben keine Lernenden erfasst!</string>
+	<string name="action_label_logout">Logout</string>
+	<string name="loginactivity_feld_ausfuellen_meldung">Sie müssen dieses Feld ausfüllen!</string>
+
+	<!-- App Severin, Céline, Sven -->
+
+	<!-- Strings used in general -->
+	<string name="general_ok">Okay</string>
+	<string name="general_yes">Ja</string>
+	<string name="general_no">Nein</string>
+
+
+	<!-- Strings related to myDutiesActivity -->
+	<string name="myDuties_title">Meine heutigen Ämtlis</string>
+	<string name="myDuties_no_stellvertreter">Kein Stellvertreter</string>
+
+	<!-- Strings related to showDutiesActivity -->
+	<string name="showDuties_title">Alle heutigen Ämtlis</string>
+	<string name="showDuties_menue_profile">Profil</string>
+	<string name="showDuties_label_monday">Montag</string>
+	<string name="showDuties_label_tuesday">Dienstag</string>
+	<string name="showDuties_label_wednesday">Mittwoch</string>
+	<string name="showDuties_label_thursday">Donnerstag</string>
+	<string name="showDuties_label_friday">Freitag</string>
+	<string name="showDuties_label_saturday">Samstag</string>
+	<string name="showDuties_label_sunday">Sonntag</string>
+	<string name="showDuties_label_no_duty">Für diesen Tag sind keine Ämtlis vorgesehen.</string>
+
+	<!-- Strings related to profile -->
+	<string name="profile_title">Profil</string>
+	<string name="profile_input_email">E-Mail</string>
+	<string name="profile_input_password_old">altes Passwort eingeben</string>
+	<string name="profile_input_password_new">neues Passwort eingeben</string>
+	<string name="profile_input_password_new_repeat">neues Passwort wiederholen</string>
+	<string name="profile_button_picture">Bild ändern</string>
+	<string name="profile_button_save">Änderungen speichern</string>
+
+	<string name="profile_dialog_title_quit">Wirklich abbrechen?</string>
+	<string name="profile_dialog_message_quit">Alle nicht gespeicherten Änderungen werden verworfen.</string>
+
+	<!-- Error messages -->
+	<string name="error_dialog_title_unknown">Unbekannter Fehler</string>
+	<string name="error_dialog_message_unknown">Es trat ein unbekannter Fehler auf. Bitte versuchen Sie es später erneut.</string>
+
+	<string name="error_dialog_title_login_wrong">Login fehlgeschlagen</string>
+	<string name="error_dialog_message_login_wrong">Bitte geben Sie einen gültigen Benutzername und das Passwort ein.</string>
+
+	<string name="error_dialog_title_profile_wrong">Speichern fehlgeschlagen</string>
+	<string name="error_dialog_message_profile_invalid_email">Die E-Mail Adresse entspricht nicht dem richtigen Format "beispiel.email@mail.com."</string>
+
+	<string name="error_dialog_message_profile_invalid_password">Das neue eingegebene Passwort entspricht nicht den Richtlinien: 1 Grossbuchstabe, 1 Kleinbuchstabe, 1 Zahl, 1 Sonderzeichen und min. 8 Zeichen lang.</string>
+	<string name="error_dialog_message_profile_incorrect_password">Das bisherige Passwort ist falsch.</string>
+	<string name="error_dialog_message_profile_passwords_not_matching">Die neuen Passwörter stimmen nicht überein.</string>
+	<string name="error_dialog_message_profile_field_required">Bitte füllen Sie alle Felder aus.</string>
+	<string name="error_dialog_message_profile_unicque_email">Es existiert bereits ein Account mit dieser E-Mail-Adresse, bitte benutzen Sie eine andere.</string>
+
+	<!-- Success Messages -->
+	<string name="success_title_profile">Speichern erfolgreich!</string>
+
+	<!-- Load Messages -->
+	<string name="load_message">Wird geladen…</string>
+
+	<!-- App Dave, Mathias -->
+
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Pendenzen-App</string>
+
+    <!-- Robin, Mike, Denis -->
+    <string name="title_register">Registrieren</string>
+    <string name="email">E-Mail</string>
+    <string name="vorname">Vorname</string>
+    <string name="passwort">Passwort</string>
+    <string name="passwortb">Passwort bestätigen</string>
+    <string name="angmldblb">Angemeldet bleiben</string>
+    <string name="register">Registrieren</string>
+    <string name="login">LOGIN</string>
+    <string name="hrzwlk">Herzlich Willkommen</string>
+    <string name="button">OK</string>
+    <string name="errormessage">Falsches Passwort oder E-Mail. Versuchen Sie es noch einmal.</string>
+    <string name="passwort_bestaetigen">Passwort bestätigen*</string>
+    <string name="registrieren">REGISTRIEREN</string>
+    <string name="profilbild_aufnehmen">Profilbild aufnehmen</string>
+    <string name="nachname">Nachname</string>
+
+    <string name="nachname_required">Nachname*</string>
+    <string name="firstname_required">Vorname*</string>
+    <string name="email_required">E-Mail*</string>
+    <string name="password_required">Passwort*</string>
+
+    <!-- Timo, Nadine, Steven -->
+    <string name="label_main">Lernende</string>
+    <string name="title_apprentice_add">Lernender hinzufügen</string>
+    <string name="toast_main_gespeichert">Erfolgreich gespeichert</string>
+    <string name="edittext_addapprentice_errortext_maxlaenge">max 50 Zeichen</string>
+    <string name="edittext_addapprentice_errortext_required">Dies ist ein Pflichtfeld</string>
+
+    <string name="menu_pendenzen">Meine Pendenzen</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_apprentices">Lernende</string>
+
+    <!-- Jens, Claudia, Dylan -->
+    <string name="erledigenBis_hint">Erledigen bis</string>
+    <string name="title_pendenz_add">Pendenz hinzufügen</string>
+    <string name="testpendenz">Testpendenz</string>
+    <string name="normal">Normal</string>
+    <string name="_24_02_2018">24.02.2018</string>
+    <string name="title">Titel</string>
+    <string name="button_cancel">Abbruch</string>
+    <string name="commit">Bestätigen</string>
+    <string name="description">Beschreibung</string>
+    <string name="urgency_title">Dringlichkeit</string>
+    <string name="dummy_text">PLATZHALTER</string>
+    <string name="exception_too_long_description">Feld Beschreibung ist zu lang.</string>
+    <string name="exception_title">Pflichtfeld Titel ist nicht ausgefüllt oder zu lang.</string>
+
+</resources>

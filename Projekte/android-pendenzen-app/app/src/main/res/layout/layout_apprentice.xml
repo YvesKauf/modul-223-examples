@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/card_apprentice_margin_around"
+    android:layout_marginLeft="@dimen/card_apprentice_margin_around"
+    android:layout_marginRight="@dimen/card_apprentice_margin_around"
+    android:layout_marginTop="@dimen/card_apprentice_margin_around"
+    android:background="@color/color_apprentice"
+    android:maxHeight="@dimen/card_apprentice_max_height"
+
+    android:minHeight="@dimen/card_apprentice_min_height"
+    >
+
+    <TextView
+        android:id="@+id/textview_apprentice_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_apprentice_name_margin_start"
+        android:layout_marginTop="@dimen/textview_apprentice_firstname_margin_top"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="@dimen/textview_apprentice_fontsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_apprentice_portrait" />
+
+    <TextView
+        android:id="@+id/textview_apprentice_lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_apprentice_name_margin_start"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textview_apprentice_fontsize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_apprentice_firstname" />
+
+    <ImageView
+        android:id="@+id/imageview_apprentice_portrait"
+        android:layout_width="@dimen/imageview_general_square"
+        android:layout_height="@dimen/imageview_general_square"
+        android:layout_marginEnd="@dimen/imageview_apprentice_marginend"
+        android:layout_marginStart="@dimen/imageview_apprentice_marginstart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:color/black"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>

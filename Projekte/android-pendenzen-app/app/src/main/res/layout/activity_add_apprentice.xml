@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview_addapprentice_portrait"
+        android:layout_width="@dimen/imageview_general_square"
+        android:layout_height="@dimen/imageview_general_square"
+        android:layout_marginBottom="@dimen/imageview_addapprentice_margin_bottom"
+        android:layout_marginEnd="@dimen/imageview_addapprentice_margin_end"
+        android:layout_marginStart="@dimen/imageview_addapprentice_margin_start"
+        android:layout_marginTop="@dimen/imageview_addapprentice_margin_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:color/black" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatactionbutton_addapprentice_caputre"
+        android:layout_width="@dimen/flaotactionbutton_general_width"
+        android:layout_height="@dimen/flaotactionbutton_general_height"
+        android:layout_marginBottom="@dimen/floatactionbutton_addapprentice_caputre_margin_bottom"
+        android:layout_marginEnd="@dimen/floatactionbutton_addapprentice_caputre_margin_end"
+        android:layout_marginStart="@dimen/floatactionbutton_addapprentice_caputre_margin_start"
+        android:layout_marginTop="@dimen/floatactionbutton_addapprentice_caputre_margin_top"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@mipmap/ic_dialog_camera"
+        app:backgroundTint="@color/dark_gray"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_addapprentice_firstname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="@+id/imageview_addapprentice_portrait"
+        app:layout_constraintTop_toTopOf="@+id/imageview_addapprentice_portrait"
+        app:layout_constraintVertical_bias="0.785"
+        app:rippleColor="@color/dark_gray"
+        app:srcCompat="@color/dark_gray" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_addapprentice_names_margin_start"
+        android:layout_marginTop="@dimen/textview_addapprentice_firstname_margin_top"
+        android:text="Vorname"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_addapprentice_portrait" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_addapprentice_names_margin_start"
+        android:layout_marginTop="@dimen/textview_addapprentice_lastname_margin_top"
+        android:text="Nachname"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/edittext_addapprentice_firstname"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/edittext_addapprentice_names_margin_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <EditText
+        android:id="@+id/edittext_addapprentice_lastname"
+        android:layout_width="231dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/edittext_addapprentice_names_margin_top"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.656" />
+
+    <Button
+        android:id="@+id/button_addapprentice_save"
+        android:layout_width="@dimen/button_addapprentice_save_width"
+        android:layout_height="@dimen/button_addapprentice_save_height"
+        android:layout_marginEnd="@dimen/button_addapprentice_save_margin_end"
+        android:layout_marginStart="@dimen/button_addapprentice_save_start"
+        android:layout_marginTop="@dimen/button_addapprentice_save_margin_top"
+        android:text="speichern"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_addapprentice_lastname"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_addapprentice_lastname" />
+</android.support.constraint.ConstraintLayout>

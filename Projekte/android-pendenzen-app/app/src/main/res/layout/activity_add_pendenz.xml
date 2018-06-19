@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_create_title"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_to_object"
+        android:layout_marginStart="@dimen/margin_to_object"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_create_description"
+        android:layout_width="362dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="@dimen/margin_to_object"
+        android:layout_marginStart="@dimen/margin_to_object"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_create_title" />
+
+    <EditText
+        android:id="@+id/editText_create_date"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_to_object"
+        android:layout_marginStart="@dimen/margin_to_object"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:ems="10"
+        android:hint="@string/erledigenBis_hint"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_create_description" />
+
+    <Spinner
+        android:id="@+id/spinner_create_urgency"
+        android:layout_width="364dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="@dimen/margin_to_object"
+        android:layout_marginStart="@dimen/margin_to_object"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_create_date" />
+
+    <Button
+        android:id="@+id/button_create_commit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="@dimen/margin_to_object"
+        android:layout_marginEnd="@dimen/margin_to_object"
+        android:layout_marginStart="@dimen/margin_to_object"
+        android:layout_marginTop="@dimen/margin_to_object"
+        android:text="speichern"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_create_urgency"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
