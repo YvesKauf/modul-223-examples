@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	android:weightSum="6"
+	>
+
+	<TextView
+		android:id="@+id/textview_listview_user"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/listview_item_height"
+		android:gravity="left"
+		android:textSize="@dimen/listview_item_font_size"
+		android:layout_margin="@dimen/margin_small"
+		/>
+
+</LinearLayout>
